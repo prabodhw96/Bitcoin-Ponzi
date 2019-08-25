@@ -5,9 +5,13 @@ The invention of cryptocurrencies has created new opportunities for criminals to
 
 In 2018, losses from cryptocurrency-related crimes amounted to US$1.7 billion. Cryptocurrency fraudsters rely on tried-and-true Ponzi schemes that use income from new participants to pay out returns to earlier investors. Early detection of ponzi schemes in this domain using machine learning can save hundreds of millions of dollars.
 
+This project involves dealing with imbalanced dataset and using various ML algorithms to detect the ponzi schemes.
+
 ## Dataset
 Dataset is available at [seanconeys/Bitcoin_Ponzi_ml](https://github.com/seanconeys/Bitcoin_Ponzi_ml/) repository.<br>
 Source: [Link](https://raw.githubusercontent.com/seanconeys/Bitcoin_Ponzi_ml/master/datasets/final_aggregated_dataset.csv)
+
+Out off 2299 total transactions, 77 of them relate to ponzi scheme. The proportion of minority class (ponzi) is less than 3.5%.
 
 The authors of the dataset collected data associated with ponzi schemes from several forums that advertised "high yield investment programs" disguised as ponzi schemes. Some of these sites include [bitcoinwhoswho.com](https://bitcoinwhoswho.com), [bitcointalk.org](https://bitcointalk.org), and [reddit.com](https://reddit.com). The other class of non-ponzi schemes were derived from this [study](https://arxiv.org/pdf/1803.00646.pdf).
 
