@@ -22,6 +22,7 @@ The authors of the dataset collected data associated with ponzi schemes from sev
 * seaborn
 * scikit-learn
 * xgboost
+* pandas_profiling
 
 ## Result
 |Model   |AUC   |
